@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ReleaseSet Dated="2021-08-28" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Type="full" xsi:noNamespaceSchemaLocation="http://ftp.ncbi.nlm.nih.gov/pub/clinvar/xsd_
+public/clinvar_public_1.64.xsd">
+
+<ClinVarSet ID="38756179">
+  <RecordStatus>current</RecordStatus>
+  <Title>BCAM, EX3-4DEL AND BLOOD GROUP--LUTHERAN NULL</Title>
+  <ReferenceClinVarAssertion DateCreated="2012-08-13" DateLastUpdated="2019-03-30" ID="57973">
+    <ClinVarAccession Acc="RCV000000470" Version="4" Type="RCV" DateUpdated="2019-03-31"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2007-03-01">
+      <ReviewStatus>no assertion criteria provided</ReviewStatus>
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species TaxonomyId="9606">human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData ID="37871600">
+        <Attribute Type="Description">For discussion of the deletion of exons 3 and 4 in the BCAM gene that was found in compound heterozygous state in a patient with the Lutheran null blood group phenotype (247420) by Karamatic Crew et al. (2007), see 612773.0003.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">17319831</ID>
+        </Citation>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant" ID="441" Acc="VCV000000441" Version="1">
+      <Measure Type="Deletion" ID="15480">
+        <Name>
+          <ElementValue Type="Preferred">BCAM, EX3-4DEL</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="nucleotide change">EX3-4DEL</Attribute>
+          <XRef Type="Allelic variant" ID="612773.0004" DB="OMIM"/>
+        </AttributeSet>
+        <CytogeneticLocation>19q13.2</CytogeneticLocation>
+        <MeasureRelationship Type="asserted, but not computed">
+          <Name>
+            <ElementValue Type="Preferred">basal cell adhesion molecule (Lutheran blood group)</ElementValue>
+		</Name>
+          <Symbol>
+            <ElementValue Type="Preferred">BCAM</ElementValue>
+          </Symbol>
+          <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="19" Accession="NC_000019.10" start="44809059" stop="
+44821421" display_start="44809059" display_stop="44821421" Strand="+"/>
+          <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="19" Accession="NC_000019.9" start="45312315" stop="
+45324677" display_start="45312315" display_stop="45324677" variantLength="12363" Strand="+"/>
+          <XRef ID="4059" DB="Gene"/>
+          <XRef Type="MIM" ID="612773" DB="OMIM"/>
+          <XRef ID="HGNC:6722" DB="HGNC"/>
+        </MeasureRelationship>
+        <XRef Type="Allelic variant" ID="612773.0004" DB="OMIM"/>
+      </Measure>
+      <Name>
+        <ElementValue Type="Preferred">BCAM, EX3-4DEL</ElementValue>
+      </Name>
+    </MeasureSet>
+    <TraitSet Type="Disease" ID="125">
+      <Trait ID="9638" Type="BloodGroup">
+        <Name>
+          <ElementValue Type="Preferred">BLOOD GROUP--LUTHERAN NULL</ElementValue>
+          <XRef Type="Allelic variant" ID="612773.0003" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="612773.0004" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="612773.0005" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="612773.0006" DB="OMIM"/>
+        </Name>
+        <XRef ID="C4017284" DB="MedGen"/>
+      </Trait>
+    </TraitSet>
+  </ReferenceClinVarAssertion>
+  <ClinVarAssertion ID="20619">
+    <ClinVarSubmissionID localKey="612773.0004_BLOOD GROUP--LUTHERAN NULL" submitter="OMIM" submitterDate="2015-08-20" title="BCAM, EX3-4DEL_BLOOD GROUP--LUTHERAN NULL"/>
+    <ClinVarAccession Acc="SCV000020619" Version="3" Type="SCV" OrgID="3" OrganizationCategory="resource" OrgType="primary" DateUpdated="2019-03-31"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2007-03-01">
+      <ReviewStatus>no assertion criteria provided</ReviewStatus>
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ExternalID DB="OMIM" ID="612773.0004" Type="Allelic variant"/>
+	<ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species>human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData>
+        <Attribute Type="Description">For discussion of the deletion of exons 3 and 4 in the BCAM gene that was found in compound heterozygous state in a patient with the Lutheran null blood group phenotype (247420) by Karamatic Crew et al. (2007), see 612773.0003.</Attribute>
+        <Citation>
+          <ID Source="PubMed">17319831</ID>
+        </Citation>
+        <XRef DB="OMIM" ID="247420" Type="MIM"/>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant">
+      <Measure Type="Variation">
+        <Name>
+          <ElementValue Type="Preferred">BCAM, EX3-4DEL</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="NonHGVS">EX3-4DEL</Attribute>
+        </AttributeSet>
+        <MeasureRelationship Type="variant in gene">
+          <Symbol>
+            <ElementValue Type="Preferred">BCAM</ElementValue>
+          </Symbol>
+        </MeasureRelationship>
+        <XRef DB="OMIM" ID="612773.0004" Type="Allelic variant"/>
+      </Measure>
+    </MeasureSet>
+    <TraitSet Type="Disease">
+      <Trait Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">BLOOD GROUP--LUTHERAN NULL</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+  </ClinVarAssertion>
+</ClinVarSet>
+
+<ClinVarSet ID="38758987">
+  <RecordStatus>current</RecordStatus>
+  <Title>FKTN, L1 INS AND Congenital muscular dystrophy-dystroglycanopathy with brain and eye anomalies, type A4</Title>
+  <ReferenceClinVarAssertion DateCreated="2012-08-13" DateLastUpdated="2019-03-30" ID="60858">
+    <ClinVarAccession Acc="RCV000003355" Version="3" Type="RCV" DateUpdated="2019-03-31"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="1999-11-01">
+      <ReviewStatus>no assertion criteria provided</ReviewStatus>
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species TaxonomyId="9606">human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData ID="37875258">
+        <Attribute Type="Description">In 2 unrelated patients with unusually severe FCMD (MDDGA4; 253800), Kondo-Iida et al. (1999) detected a 1.2-kb L1 insertion in the FKTN gene. Each patient carried the founder 3-kb retrotransposal insertion (607440.0001) on one allele and a distinctive haplotype on the other. Sequence analysis revealed that the 3-prime region of an L1 repetitive element had been inserted 24 basepairs before the intron 7-exon 8 boundary. The patients' RNA was tested for the effects of the insertion by means of reverse transcriptase-PCR analysis, using primers that amplified exons 5-10. Products of various sizes were obtained, suggesting exon skipping.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">10545611</ID>
+        </Citation>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant" ID="3202" Acc="VCV000003202" Version="1">
+      <Measure Type="Insertion" ID="18241">
+        <Name>
+          <ElementValue Type="Preferred">FKTN, L1 INS</ElementValue>
+        </Name>
+        <Name>
+          <ElementValue Type="Alternate">FKTN, L1 INS</ElementValue>
+          <XRef Type="Allelic variant" ID="607440.0004" DB="OMIM"/>
+        </Name>
+		<CytogeneticLocation>9q31</CytogeneticLocation>
+        <MeasureRelationship Type="asserted, but not computed">
+          <Name>
+            <ElementValue Type="Preferred">fukutin</ElementValue>
+          </Name>
+          <Symbol>
+            <ElementValue Type="Preferred">FKTN</ElementValue>
+          </Symbol>
+          <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="105558117" stop="105655950" display_start="105558117" display_stop="105655950" Strand="+"/>
+          <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="108320410" stop="108403398" display_start="108320410" display_stop="108403398" variantLength="82989" Strand="+"/>
+          <XRef ID="2218" DB="Gene"/>
+          <XRef Type="MIM" ID="607440" DB="OMIM"/>
+          <XRef ID="HGNC:3622" DB="HGNC"/>
+        </MeasureRelationship>
+        <XRef Type="Allelic variant" ID="607440.0004" DB="OMIM"/>
+      </Measure>
+      <Name>
+        <ElementValue Type="Preferred">FKTN, L1 INS</ElementValue>
+      </Name>
+    </MeasureSet>
+    <TraitSet Type="Disease" ID="820">
+      <Trait ID="9860" Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">Congenital muscular dystrophy-dystroglycanopathy with brain and eye anomalies, type A4</ElementValue>
+        </Name>
+        <Name>
+          <ElementValue Type="Alternate">MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (CONGENITAL WITH BRAIN AND EYE ANOMALIES), TYPE A, 4</ElementValue>
+          <XRef Type="Allelic variant" ID="607440.0001" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0002" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0003" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0004" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0005" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0006" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0007" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0013" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0016" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0017" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0018" DB="OMIM"/>
+        </Name>
+        <XRef ID="CN355827" DB="MedGen"/>
+      </Trait>
+    </TraitSet>
+ </ReferenceClinVarAssertion>
+  <ClinVarAssertion ID="23513">
+    <ClinVarSubmissionID localKey="607440.0004_MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (CONGENITAL WITH BRAIN AND EYE ANOMALIES), TYPE A, 4" submitter="OMIM" submitterDate="2014-10-20" title="FKTN, L1 INS_MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (CONGENITAL WITH BRAIN AND EYE ANOMALIES), TYPE A, 4"/>
+    <ClinVarAccession Acc="SCV000023513" Version="2" Type="SCV" OrgID="3" OrganizationCategory="resource" OrgType="primary" DateUpdated="2019-03-31"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="1999-11-01">
+      <ReviewStatus>no assertion criteria provided</ReviewStatus>
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ExternalID DB="OMIM" ID="607440.0004" Type="Allelic variant"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species>human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData>
+        <Attribute Type="Description">In 2 unrelated patients with unusually severe FCMD (MDDGA4; 253800), Kondo-Iida et al. (1999) detected a 1.2-kb L1 insertion in the FKTN gene. Each patient carried the founder 3-kb retrotransposal insertion (607440.0001) on one allele and a distinctive haplotype on the other. Sequence analysis revealed that the 3-prime region of an L1 repetitive element had been inserted 24 basepairs before the intron 7-exon 8 boundary. The patients' RNA was tested for the effects of the insertion by means of reverse transcriptase-PCR analysis, using primers that amplified exons 5-10. Products of various sizes were obtained, suggesting exon skipping.</Attribute>
+        <Citation>
+          <ID Source="PubMed">10545611</ID>
+        </Citation>
+        <XRef DB="OMIM" ID="253800" Type="MIM"/>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant">
+      <Measure Type="Variation">
+        <Name>
+          <ElementValue Type="Preferred">FKTN, L1 INS</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="NonHGVS">L1 INS</Attribute>
+        </AttributeSet>
+        <MeasureRelationship Type="variant in gene">
+          <Symbol>
+            <ElementValue Type="Preferred">FKTN</ElementValue>
+          </Symbol>
+        </MeasureRelationship>
+		<XRef DB="OMIM" ID="607440.0004" Type="Allelic variant"/>
+      </Measure>
+    </MeasureSet>
+    <TraitSet Type="Disease">
+      <Trait Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (CONGENITAL WITH BRAIN AND EYE ANOMALIES), TYPE A, 4</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+  </ClinVarAssertion>
+</ClinVarSet>
+
+<ClinVarSet ID="38758999">
+  <RecordStatus>current</RecordStatus>
+  <Title>FKTN, 473-BP DEL, NT5370 AND Congenital muscular dystrophy-dystroglycanopathy with brain and eye anomalies, type A4</Title>
+  <ReferenceClinVarAssertion DateCreated="2012-08-13" DateLastUpdated="2019-03-30" ID="60870">
+    <ClinVarAccession Acc="RCV000003367" Version="3" Type="RCV" DateUpdated="2019-03-31"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2008-02-01">
+      <ReviewStatus>no assertion criteria provided</ReviewStatus>
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species TaxonomyId="9606">human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData ID="37875125">
+        <Attribute Type="Description">For discussion of the 473-bp deletion in exon 10 of the FKTN gene, which included the polyadenylation signal, that was found in compound heterozygous state in a patient diagnosed with Walker-Warburg syndrome (MDDGA4; 253800) by Cotarelo et al. (2008), see 607440.0012.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">18177472</ID>
+        </Citation>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant" ID="3212" Acc="VCV000003212" Version="1">
+      <Measure Type="Deletion" ID="18251">
+        <Name>
+          <ElementValue Type="Preferred">FKTN, 473-BP DEL, NT5370</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="nucleotide change">473-BP DEL, NT5370</Attribute>
+          <XRef Type="Allelic variant" ID="607440.0013" DB="OMIM"/>
+        </AttributeSet>
+        <CytogeneticLocation>9q31</CytogeneticLocation>
+        <MeasureRelationship Type="asserted, but not computed">
+          <Name>
+            <ElementValue Type="Preferred">fukutin</ElementValue>
+          </Name>
+          <Symbol>
+            <ElementValue Type="Preferred">FKTN</ElementValue>
+          </Symbol>
+		  <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="9" Accession="NC_000009.12" start="105558117" stop="105655950" display_start="105558117" display_stop="105655950" Strand="+"/>
+          <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="9" Accession="NC_000009.11" start="108320410" stop="108403398" display_start="108320410" display_stop="108403398" variantLength="82989" Strand="+"/>
+          <XRef ID="2218" DB="Gene"/>
+          <XRef Type="MIM" ID="607440" DB="OMIM"/>
+          <XRef ID="HGNC:3622" DB="HGNC"/>
+        </MeasureRelationship>
+        <XRef Type="Allelic variant" ID="607440.0013" DB="OMIM"/>
+      </Measure>
+      <Name>
+        <ElementValue Type="Preferred">FKTN, 473-BP DEL, NT5370</ElementValue>
+      </Name>
+    </MeasureSet>
+    <TraitSet Type="Disease" ID="820">
+      <Trait ID="9860" Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">Congenital muscular dystrophy-dystroglycanopathy with brain and eye anomalies, type A4</ElementValue>
+        </Name>
+        <Name>
+          <ElementValue Type="Alternate">MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (CONGENITAL WITH BRAIN AND EYE ANOMALIES), TYPE A, 4</ElementValue>
+          <XRef Type="Allelic variant" ID="607440.0001" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0002" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0003" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0004" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0005" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0006" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0007" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0013" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0016" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0017" DB="OMIM"/>
+          <XRef Type="Allelic variant" ID="607440.0018" DB="OMIM"/>
+        </Name>
+        <XRef ID="CN355827" DB="MedGen"/>
+      </Trait>
+    </TraitSet>
+  </ReferenceClinVarAssertion>
+  <ClinVarAssertion ID="23525">
+    <ClinVarSubmissionID localKey="607440.0013_MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (CONGENITAL WITH BRAIN AND EYE ANOMALIES), TYPE A, 4" submitter="OMIM" submitterDate="2018-11-19" title="FKTN, 473-BP DEL, NT5370_MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (CONGENITAL WITH BRAIN AND EYE ANOMALIES), TYPE A, 4"/>
+    <ClinVarAccession Acc="SCV000023525" Version="2" Type="SCV" OrgID="3" OrganizationCategory="resource" OrgType="primary" DateUpdated="2019-03-31"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2008-02-01">
+      <ReviewStatus>no assertion criteria provided</ReviewStatus>
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+	 <ExternalID DB="OMIM" ID="607440.0013" Type="Allelic variant"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species>human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData>
+        <Attribute Type="Description">For discussion of the 473-bp deletion in exon 10 of the FKTN gene, which included the polyadenylation signal, that was found in compound heterozygous state in a patient diagnosed with Walker-Warburg syndrome (MDDGA4; 253800) by Cotarelo et al. (2008), see 607440.0012.</Attribute>
+        <Citation>
+          <ID Source="PubMed">18177472</ID>
+        </Citation>
+        <XRef DB="OMIM" ID="253800" Type="MIM"/>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant">
+      <Measure Type="Variation">
+        <Name>
+          <ElementValue Type="Preferred">FKTN, 473-BP DEL, NT5370</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="NonHGVS">473-BP DEL, NT5370</Attribute>
+        </AttributeSet>
+        <MeasureRelationship Type="variant in gene">
+          <Symbol>
+            <ElementValue Type="Preferred">FKTN</ElementValue>
+          </Symbol>
+        </MeasureRelationship>
+        <XRef DB="OMIM" ID="607440.0013" Type="Allelic variant"/>
+      </Measure>
+    </MeasureSet>
+    <TraitSet Type="Disease">
+      <Trait Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (CONGENITAL WITH BRAIN AND EYE ANOMALIES), TYPE A, 4</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+  </ClinVarAssertion>
+</ClinVarSet>
+
+</ReleaseSet>
